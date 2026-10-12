@@ -1,0 +1,13 @@
+AVIATOR PREDICTOR PRO — paquet PWA en français
+
+Ce paquet prépare une version installable depuis le navigateur (icône et ouverture autonome), mais ce n'est PAS un fichier APK.
+Pour que l'installation PWA fonctionne, les fichiers doivent être hébergés sur un site HTTPS. Ouvrir directement index.html depuis le gestionnaire de fichiers (adresse content://) ne permet pas d'enregistrer le service worker et d'installer proprement l'application.
+
+Étapes générales:
+1. Héberger tous les fichiers de ce dossier sur un site HTTPS.
+2. Ouvrir l'adresse HTTPS avec Chrome sur Android.
+3. Menu ⋮ > Installer l'application (ou Ajouter à l'écran d'accueil, selon Chrome).
+4. Une icône AVIATOR PRO apparaîtra; elle ouvrira l'interface en mode autonome.
+
+Sécurité: la connexion et la gestion des utilisateurs restent une démonstration locale. Ne pas utiliser pour des comptes réels avant ajout d'une authentification serveur sécurisée.
+Les statistiques ne prédisent pas les multiplicateurs futurs.
